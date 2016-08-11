@@ -1,0 +1,3 @@
+This project was built for a class called "Data Structures", and was submitted 05/2015.
+
+This project dealt with the graph data structure. The assignment was to build a graph manually (using provided specifications), and then to allow the user to start a depth first search of the graph. The user is prompted to enter a vertex value, which starts the search. The program tracks the "time" spent searching (here, time isn't clocked, but is tracked by movement. Each movement to a new vertex adds 1 to "time", which was a project requirement) and prints the discovery time, ending time (time when all edges of the vertex have been explored) and total amount of time spent in the node. Then the program "prints" the graph, using arrows to indicate parent/child relationships. 
